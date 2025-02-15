@@ -82,7 +82,7 @@ I=power/Voltage
 <br>
 The output load line equation is
 <br>
-<b>V<sub>out</b>
+V<sub>out
 =<b>V<sub>DD</b>-<b> I<sub> D </b>*<b> R<sub> D </b>
 <br>
 <b> R<sub> D </b>=(1.8-1.64)/55.5u
