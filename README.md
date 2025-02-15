@@ -55,6 +55,9 @@ In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1
 
 
 ![dia](https://github.com/user-attachments/assets/c99f2146-840e-49da-b01d-e8e4990a16a0)
+<br>
 
+
+![dc](https://github.com/user-attachments/assets/230737ba-c4c2-45a3-8916-d650cf94fd77)
 
  
