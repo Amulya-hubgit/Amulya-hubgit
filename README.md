@@ -20,9 +20,33 @@ In this Analysis we determines gain,input(or)output impedence ,frequency responc
 
 
  ![Screenshot (600](https://github.com/user-attachments/assets/5ec39989-0a30-4e1b-921d-a3b359814ff9)
- <br>
 <br>
-<b> Circuit Specifications</b>
- 
+<b> Components:</b>
+In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1,V2).
+<br>
+<b> Circuit Specifications:</b>
+ <br>
+ <b>MOSFET length:</b>
+180nm
+<br>
+<b> MOSFET Width:</b>
+0.321um
+<br>
+<b> Drain Resistor:</b>
+2.72k ohm
+<br>
+<b> Supply Voltage:</b>
+1.8V
+<br>
+<b> Threshold Voltage:</b>
+0.36V
+<br>
+<b> voltage:</b>
+0.9V
+<br>
+<b> Amplitude and Frequency:</b>
+50mV, 1kHz
+
+
 
  
