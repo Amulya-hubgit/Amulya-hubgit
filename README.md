@@ -6,5 +6,8 @@ high voltage gain and it's applications are audio amplifier, signal processing a
 <br> In this Experiment we do the DC,Tranisient analysis and AC analysis
 dc.<br>
 <b> DC Analysis:</b>
+In this analysis we determines the biasing point(Q-point) of the MOSFET and ensuring it operates in the saturation region
+<br>
+<b> AC analysis:</b>
  
  
