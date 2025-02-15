@@ -12,13 +12,13 @@ In this analysis we determines the biasing point(Q-point) of the MOSFET and ensu
 In this analysis we determines the time domain responce by varying input signal.
 <br>
 <b> AC analysis:</b>
+
 In this Analysis we determines gain,input(or)output impedence ,frequency responce and bandwidth.
 <br>
 <br>
 <b style="font-size: 27px;"> Circuit Diagram </b>
 
 
+ ![Screenshot (600](https://github.com/user-attachments/assets/5ec39989-0a30-4e1b-921d-a3b359814ff9)
 
-
- 
  
