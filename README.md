@@ -59,5 +59,26 @@ In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1
 
 
 ![dc](https://github.com/user-attachments/assets/230737ba-c4c2-45a3-8916-d650cf94fd77)
+<br>
+From the DC analysis
+<br>
+<b>V<sub>in</b>
+=0.9V
+<br>
+<b>V<sub>out</b>
+=1.649V
+<br>
+<b>To find I<sub> D </b>
+<br>
+If the power dessipation is 100um across the resistor and voltage is 1.8V
+<br>
+power=V*I
+<br>
+I=power/Voltage
+ 
+
+
+
+
 
  
