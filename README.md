@@ -20,5 +20,9 @@ In this Analysis we determines gain,input(or)output impedence ,frequency responc
 
 
  ![Screenshot (600](https://github.com/user-attachments/assets/5ec39989-0a30-4e1b-921d-a3b359814ff9)
+ <br>
+<br>
+<b> Circuit Specifications</b>
+ 
 
  
