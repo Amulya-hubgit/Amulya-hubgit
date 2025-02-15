@@ -46,8 +46,15 @@ In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1
 <br>
 <b> Amplitude and Frequency:</b>
 50mV, 1kHz
+<br>.
+<br>
+<b> DC Analysis:</b>
+<br>
 
 
+
+
+![dia](https://github.com/user-attachments/assets/c99f2146-840e-49da-b01d-e8e4990a16a0)
 
 
  
