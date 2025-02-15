@@ -49,4 +49,5 @@ In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1
 
 
 
+
  
