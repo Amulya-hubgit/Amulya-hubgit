@@ -68,13 +68,17 @@ From the DC analysis
 <b>V<sub>out</b>
 =1.649V
 <br>
-<b>To find I<sub> D </b>
+To find <b> I<sub> D </b>
 <br>
 If the power dessipation is 100um across the resistor and voltage is 1.8V
 <br>
 power=V*I
 <br>
 I=power/Voltage
+<br>
+  =100um/1.8V
+  <br>
+ =55.5um
  
 
 
