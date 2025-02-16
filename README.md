@@ -129,6 +129,7 @@ In this ananlysis we determines the gain.to obtain the sinusoidal voltage signal
 The voltage gain is calculated as:
 <br>
 Gain =<b> V<sub> out</b>/<b> V<sub> in</b>
+<br>
 <b> A<sub> v</b>=15
 <br>
 this value matches the theoritical value which is calculated by:
@@ -146,6 +147,16 @@ The circuit amplifies without severe distortion, confirming MOSFET operation in 
 In this analysis we determines the frequency responce and In  simulation we set the sweep to decade and put staring frequency is 1Hz and stop frequency is 1THz
 <br>
 At low frequency , the amplifier maintains the  high voltage gain and as frequency increses thre gain starts to decresing due to internal MOSFET capacitance
+<br>
+<b> Result:</b>
+<br>
+<b>DC Analysis =</b>
+<br>
+<b> Transient Analysis =</b>
+Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and 180 degree phase shift at the output
+<br>
+<b>AC Analysis =</b>
+The frequency sweep from 0.1Hz to 1THz shows that beyond a certain frequency the amplifier loses its ability to amplify effectivily
 
 
 
