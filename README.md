@@ -136,14 +136,16 @@ this value matches the theoritical value which is calculated by:
 <b> A<sub> v</b>=<b> G<sub> m</b><b> R<sub> d</b>
 <br>
 The output waveform is an amplified and inverted version of the input.
-A 180° phase shift is observed, characteristic of a common-source amplifier.
+A 180° phase shift is observed in the ouyput.
 The circuit amplifies without severe distortion, confirming MOSFET operation in saturation.
 <br>
 <b> AC Analysis:</b>
 
 ![AC](https://github.com/user-attachments/assets/f17c6aff-9b11-4fc5-ad46-2eb5fc3b9137)
-
-
+<br>
+In this analysis we determines the frequency responce and In  simulation we set the sweep to decade and put staring frequency is 1Hz and stop frequency is 1THz
+<br>
+At low frequency , the amplifier maintains the  high voltage gain and as frequency increses thre gain starts to decresing due to internal MOSFET capacitance
 
 
 
