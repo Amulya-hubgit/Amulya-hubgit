@@ -148,17 +148,26 @@ In this analysis we determines the frequency responce and In  simulation we set 
 <br>
 At low frequency , the amplifier maintains the  high voltage gain and as frequency increses thre gain starts to decresing due to internal MOSFET capacitance
 <br>
-<b> Result:</b>
+<b>Result:<b/>
+In DC analysis theoritically we calculated Id value is 55.5um and from the load line we calucated Rd =2.72k ohm
+<br>
+In Transient analysis we calculated and obtained the gain is 15
+<br>
+In AC analysis 
+<br>
+<b> Inference:</b>
 <br>
 <b>DC Analysis =</b>
+In dc analysis we  determine the biasing point (Q-point)
 <br>
 <b> Transient Analysis =</b>
-Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and 180 degree phase shift at the output
+Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and 180 degree phase shift at the output.
 <br>
 <b>AC Analysis =</b>
-The frequency sweep from 0.1Hz to 1THz shows that beyond a certain frequency the amplifier loses its ability to amplify effectivily
-<br>Infrerence:</b>
-<br>
+The frequency sweep from 0.1Hz to 1THz shows that beyond a certain frequency the amplifier loses its ability to amplify effectivily.
+and at low frequency it gives the high gain .
+
+
 
 
 
