@@ -82,13 +82,40 @@ I=power/Voltage
 <br>
 The output load line equation is
 <br>
-V<sub>out
+<b> V<sub>out</b>
 =<b>V<sub>DD</b>-<b> I<sub> D </b>*<b> R<sub> D </b>
 <br>
 <b> R<sub> D </b>=(1.8-1.64)/55.5u
 <br>
 =2.72k ohms
-
+<br>
+<b> I<sub> D </b>
+=1/2<b> u<sub> n</b><b> C<sub>ox</b>W/L(<b> V<sub>gs</b>-<b> V<sub>th</b>
+<br>
+<b> I<sub>D</b> &prop; W
+<br>
+when we replace the value of drain resistor is 2.75k ohms, then  calculated current value does not match the simulated value and fixed the mosfet length value at 180nm and
+vary the width to get exact current value
+<br>
+| Length   | width    | Id       |
+|----------|----------|----------|
+| 180nm    | 1um      | 0.000144083 |
+| 180nm    | 0.1um    | 1.12775e-05|
+|180nm     | 0.2um    | 3.75606e-05|
+|180nm     | 0.3um    |  5.25619e-05|
+| 180nm    | 0.321um   |  5.55657e-05|
+<br>
+<b> V<sub> DS</b>=<b>V <sub> D </b>-<b>V <sub> s </b>
+<br>
+  =0
+<br>
+<b> V<sub> ov </b>=<b> V<sub> gs</b>-<b> V<sub> th </b>
+<br> 
+0.9-0.36=0.54
+<br>
+<b> V<sub> DS </b>><b> V<sub> GS </b>-<b> V<sub> th </b>
+<br>
+ This analysis confirmed that NMOS operates in saturation region
 
  
 
