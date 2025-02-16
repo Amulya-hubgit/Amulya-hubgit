@@ -163,7 +163,7 @@ In dc analysis we  determine the biasing point (Q-point)
 <b> Transient Analysis =</b>
 Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and 180 degree phase shift at the output.
 <br>
-<b>AC Analysis =</b>
+<b>AC Analysis =
 The frequency sweep from 0.1Hz to 1THz shows that beyond a certain frequency the amplifier loses its ability to amplify effectivily.
 and at low frequency it gives the high gain .
 
