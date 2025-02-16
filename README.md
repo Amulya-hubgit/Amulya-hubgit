@@ -116,8 +116,38 @@ vary the width to get exact current value
 <b> V<sub> DS </b>><b> V<sub> GS </b>-<b> V<sub> th </b>
 <br>
  This analysis confirmed that NMOS operates in saturation region
+ <br>
+ <b> Transient Analysis:</b>
+ <br>
+ 
 
  
+![trans](https://github.com/user-attachments/assets/0f7158ef-92ca-4150-a70c-1e0bf359651c)
+<br>
+In this ananlysis we determines the gain.to obtain the sinusoidal voltage signal put peak to peak value is 50mV and frequency is 1kHz and Ac amplitude is 1v and select the stop time 3ms
+<br>
+The voltage gain is calculated as:
+<br>
+Gain =<b> V<sub> out</b>/<b> V<sub> in</b>
+<b> A<sub> v</b>=15
+<br>
+this value matches the theoritical value which is calculated by:
+<br>
+<b> A<sub> v</b>=<b> G<sub> m</b><b> R<sub> d</b>
+<br>
+The output waveform is an amplified and inverted version of the input.
+A 180° phase shift is observed, characteristic of a common-source amplifier.
+The circuit amplifies without severe distortion, confirming MOSFET operation in saturation.
+<br>
+<b> AC Analysis:</b>
+
+![AC](https://github.com/user-attachments/assets/f17c6aff-9b11-4fc5-ad46-2eb5fc3b9137)
+
+
+
+
+
+
 
 
 
