@@ -159,7 +159,7 @@ In AC analysis
 <b> Inference:</b>
 <br>
 <b>DC Analysis :</b>
-In dc analysis we  determine the biasing point (Q-point)
+In dc analysis we  determine the biasing point (Q-point)and we confirm that MOSFRT operates in the saturation region
 <br>
 <b> Transient Analysis :</b>
 Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and 180 degree phase shift at the output.
