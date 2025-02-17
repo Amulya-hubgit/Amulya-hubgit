@@ -171,12 +171,21 @@ and at low frequency it gives the high gain .
 <br>
 # Circuit 2
 <br>
-<b> Circuit Diagram: </b>
+## Circuit Diagram: 
 <br>
 
 
 
 ![circuit 2](https://github.com/user-attachments/assets/6119c0aa-703b-4d5b-985e-380fd8a92b51)
+<Br>
+<b> circuit components:</b>
+<br>
+In this circuit we use 180nm of NMOSFET and instead of drain resistor we replace the 180nm of MOSFET and voltage source(V1,V2).
+<br>
+<b> procedure:</b>
+<br>
+
+
 
 
 
