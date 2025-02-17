@@ -243,6 +243,7 @@ I=power/Voltage
  | 180nm     | 0.321um  | 5.55256e-05|
 <br>
  <b> Transient analysis:</b>
+ <br>
  ![transieby](https://github.com/user-attachments/assets/3c2dfbc1-7e93-41ef-b662-e6b3b5d4c868)
 
  <br>
