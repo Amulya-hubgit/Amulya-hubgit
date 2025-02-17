@@ -184,6 +184,21 @@ In this circuit we use 180nm of NMOSFET and instead of drain resistor we replace
 <br>
 <b> procedure:</b>
 <br>
+first we design the circut in LT spice then we do the DC analysis, AC analysis and transient analysis
+<br>
+DC analysis: In DC analysis  we give the value for width=3um and length=180nm of the MOSFET and supply voltage is 1.8 and Vgs =0.9 and we select(.op pnt) and run the circuit
+<br>
+Transient analysis:In Transient analysis we select the sine wave of the input with amplitude 50mV and frequency 1kHz and we give the stop is 3ms and select the (.tran 3m) to run the program
+<br>
+AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
+<br>
+<Observation and Calculations:</b>
+<br>
+<b> DC analysis:</b>
+<br>
+![image](https://github.com/user-attachments/assets/0aee3c28-1bcf-4e39-8fb7-bf1eb1344af4)
+
+
 
 
 
