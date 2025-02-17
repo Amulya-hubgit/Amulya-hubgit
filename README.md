@@ -176,14 +176,7 @@ and at low frequency it gives the high gain .
 
 
 
-![circuit 2](https://github.com/user-attachments/assets/85ca55b4-544b-4e0f-91f6-00069e82f931)
-![circuit 2](https://github.com/user-attachments/assets/a60ed502-2f66-4ab7-b623-80e463e9efb7)
-
-
-
-
-
-
+![circuit 2](https://github.com/user-attachments/assets/6119c0aa-703b-4d5b-985e-380fd8a92b51)
 
 
 
