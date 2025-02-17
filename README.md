@@ -242,14 +242,16 @@ I=power/Voltage
  | 180nm     | 0.321um  | 5.55256e-05|
 <br>
  <b> Transient analysis:</b>
- ![image](https://github.com/user-attachments/assets/63b6a6d2-2a5b-4892-b57d-41836ddbcfea)
+![transieby](https://github.com/user-attachments/assets/3c2dfbc1-7e93-41ef-b662-e6b3b5d4c868)
+
  <br>
   We give a frequency 1kHz and give input as sine wave and 50mV peak amplitude and 0.9V DC offset was applied.The output peak voltage was measured as 1.751V of the sine wave.There is 180 degree phase shift between input and output or the DC level shift.
   <br>
   <b> AC analysis:</b>
   <br>
-  ![image](https://github.com/user-attachments/assets/24d0ef0a-ff96-44fd-8188-e5d57798c663)
-  <br>
+ 
+  <br>![c3](https://github.com/user-attachments/assets/bc0e0bf2-a866-435b-8914-92d513f3d866)
+
    The circuit shows a gain of 14dB and    Frequency: 23.614G Hz.
    <br>
    <b> Inference:</b>
