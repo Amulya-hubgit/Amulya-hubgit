@@ -152,6 +152,7 @@ A 180° phase shift is observed in the ouyput.
 The circuit amplifies without severe distortion, confirming MOSFET operation in saturation.
 <br>
 <b> AC Analysis:</b>
+<br>
 
 ![156](https://github.com/user-attachments/assets/1a40a478-ba45-4e37-9de9-cbe7f0c100e9)
 
