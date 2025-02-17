@@ -130,7 +130,7 @@ The voltage gain is calculated as:
 <br>
 Gain =<b> V<sub> out</b>/<b> V<sub> in</b>
 <br>
-<b> A<sub> v</b>=15
+<b> A<sub> v</b>=-33.48dB
 <br>
 this value matches the theoritical value which is calculated by:
 <br>
@@ -152,7 +152,7 @@ At low frequency , the amplifier maintains the  high voltage gain and as frequen
 <br>
 In DC analysis theoritically we calculated Id value is 55.5um and from the load line we calucated Rd =2.72k ohm
 <br>
-In Transient analysis we calculated and obtained the gain is 15
+In Transient analysis we calculated and obtained the gain is -33.48 dB
 <br>
 In AC analysis 
 <br>
