@@ -184,13 +184,13 @@ In this circuit we use 180nm of NMOSFET and instead of drain resistor we replace
 <br>
 <b> procedure:</b>
 <br>
-first we design the circut in LT spice then we do the DC analysis, AC analysis and transient analysis
+1.first we design the circut in LT spice then we do the DC analysis, AC analysis and transient analysis
 <br>
- DC analysis: In DC analysis  we give the value for width=3um and length=180nm of the MOSFET and supply voltage is 1.8 and Vgs =0.9 and we select(.op pnt) and run the circuit
+2. DC analysis: In DC analysis  we give the value for width=3um and length=180nm of the MOSFET and supply voltage is 1.8 and Vgs =0.9 and we select(.op pnt) and run the circuit
 <br>
- Transient analysis:In Transient analysis we select the sine wave of the input with amplitude 50mV and frequency 1kHz and we give the stop is 3ms and select the (.tran 3m) to run the program
+ 3.Transient analysis:In Transient analysis we select the sine wave of the input with amplitude 50mV and frequency 1kHz and we give the stop is 3ms and select the (.tran 3m) to run the program
 <br>
-  AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
+  4.AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
 <br>
 <Simulations Result and Calculations:</b>
 <br>
@@ -224,10 +224,10 @@ I=power/Voltage
  | Length   | width    | Id       |
 |----------|----------|----------|
 | 180nm    | 1um      | 0.000144083 |
-| 180nm    | 0.1um    | 1.12775e-05|
+| 180nm    | 0.1um    | 1.27955e-05|
 |180nm     | 0.2um    | 3.75606e-05|
-|180nm     | 0.3um    |  5.25619e-05|
-| 180nm    | 0.321um   |  5.55657e-05|
+|180nm     | 0.31um    |  5.3289e-05|
+| 180nm    | 0.321um   |  5.55256e-05|
  <b> Transient analysis:</b>
  ![image](https://github.com/user-attachments/assets/63b6a6d2-2a5b-4892-b57d-41836ddbcfea)
  <br>
@@ -244,6 +244,11 @@ I=power/Voltage
    1.The Current Id is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
    <br>
    2.DC operating point analysis cofirmed that the MOSFET operates in saturation region. The observed drain voltage (1.18V) and the drain current(55uA) align with theoretical values.
+   <br>
+   3.Transient analysis verified that the circuit amplifies the input 1k Hz sine wave with minimal distortion.There is 180 degree phase shift between input and output or the DC level shift.
+   <br>
+   4.In AC analysis we determine the frequency response by applying the small signal analysis to the circuit . We do this analysis to check in which frequency the circuit acts as the linear amplifier.
+   
    
 
 
