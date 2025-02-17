@@ -192,7 +192,7 @@ first we design the circut in LT spice then we do the DC analysis, AC analysis a
 <br>
   AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
 <br>
-<Observation and Calculations:</b>
+<Simulations Result and Calculations:</b>
 <br>
 <b> DC analysis:</b>
 <br>
@@ -205,7 +205,7 @@ From the DC analysis
 =0.9V
 <br>
 <b>V<sub>out</b>
-=0.87
+=0.849157
 <br>
 To find <b> I<sub> D </b>
 <br>
@@ -218,6 +218,36 @@ I=power/Voltage
   =100um/1.8V
   <br>
  =55.5um
+ <br>
+ we have to get the output current, Id for the given circuits by adjusting the values of Length & Width of both the MOSFETS M1 & M2 
+ <br>
+ | Length   | width    | Id       |
+|----------|----------|----------|
+| 180nm    | 1um      | 0.000144083 |
+| 180nm    | 0.1um    | 1.12775e-05|
+|180nm     | 0.2um    | 3.75606e-05|
+|180nm     | 0.3um    |  5.25619e-05|
+| 180nm    | 0.321um   |  5.55657e-05|
+ <b> Transient analysis:</b>
+ ![image](https://github.com/user-attachments/assets/63b6a6d2-2a5b-4892-b57d-41836ddbcfea)
+ <br>
+  We give a frequency 1kHz and give input as sine wave and 50mV peak amplitude and 0.9V DC offset was applied.The output peak voltage was measured as 1.751V of the sine wave.There is 180 degree phase shift between input and output or the DC level shift.
+  <br>
+  <b> AC analysis:</b>
+  <br>
+  ![image](https://github.com/user-attachments/assets/24d0ef0a-ff96-44fd-8188-e5d57798c663)
+  <br>
+   The circuit shows a gain of 14dB and    Frequency: 23.614G Hz.
+   <br>
+   <b> Inference:</b>
+   <br>
+   1.The Current Id is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
+   <br>
+   2.DC operating point analysis cofirmed that the MOSFET operates in saturation region. The observed drain voltage (1.18V) and the drain current(55uA) align with theoretical values.
+   
+
+
+ 
 
 
 
