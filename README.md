@@ -167,6 +167,16 @@ Common source amplifier amplifies the 1kHz,50mV input signal and  gain is 15 and
 <b>AC Analysis :</b>
 The frequency sweep from 0.1Hz to 1THz shows that beyond a certain frequency the amplifier loses its ability to amplify effectivily.
 and at low frequency it gives the high gain .
+<br>
+<br>
+# Circuit 2
+<br>
+<b> Circuit Diagram: </b>
+<br>
+
+
+
+![circuit 2](https://github.com/user-attachments/assets/85ca55b4-544b-4e0f-91f6-00069e82f931)
 
 
 
