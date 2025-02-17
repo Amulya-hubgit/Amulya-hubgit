@@ -46,7 +46,18 @@ In this circuit we use 180nm of NMOSFET and Drain resistor and voltage source(V1
 <br>
 <b> Amplitude and Frequency:</b>
 50mV, 1kHz
-<br>.
+<br>
+<b> procedure:</b>
+<br>
+1.first we design the circut in LT spice then we do the DC analysis, AC analysis and transient analysis
+<br>
+2. DC analysis: In DC analysis  we give the value for width=3um and length=180nm of the MOSFET and supply voltage is 1.8 and Vgs =0.9 and we select(.op pnt) and run the circuit
+<br>
+ 3.Transient analysis:In Transient analysis we select the sine wave of the input with amplitude 50mV and frequency 1kHz and we give the stop is 3ms and select the (.tran 3m) to run the program
+<br>
+  4.AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
+<br>
+<b>simulations result and Calculations:</b>
 <br>
 <b> DC Analysis:</b>
 <br>
@@ -90,7 +101,7 @@ The output load line equation is
 =2.72k ohms
 <br>
 <b> I<sub> D </b>
-=1/2<b> u<sub> n</b><b> C<sub>ox</b>W/L(<b> V<sub>gs</b>-<b> V<sub>th</b>
+=1/2<b> u<sub> n</b><b> C<sub>ox</b>W/L(<b> V<sub>gs</b>-<b> V<sub>th</b>)
 <br>
 <b> I<sub>D</b> &prop; W
 <br>
@@ -130,7 +141,7 @@ The voltage gain is calculated as:
 <br>
 Gain =<b> V<sub> out</b>/<b> V<sub> in</b>
 <br>
-<b> A<sub> v</b>=-33.48dB
+<b> A<sub> v</b>=33.48dB
 <br>
 this value matches the theoritical value which is calculated by:
 <br>
@@ -142,7 +153,8 @@ The circuit amplifies without severe distortion, confirming MOSFET operation in 
 <br>
 <b> AC Analysis:</b>
 
-![AC](https://github.com/user-attachments/assets/f17c6aff-9b11-4fc5-ad46-2eb5fc3b9137)
+![156](https://github.com/user-attachments/assets/1a40a478-ba45-4e37-9de9-cbe7f0c100e9)
+
 <br>
 In this analysis we determines the frequency responce and In  simulation we set the sweep to decade and put staring frequency is 1Hz and stop frequency is 1THz
 <br>
