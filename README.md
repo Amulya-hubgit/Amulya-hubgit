@@ -242,7 +242,7 @@ I=power/Voltage
  | 180nm     | 0.321um  | 5.55256e-05|
 <br>
  <b> Transient analysis:</b>
-![transieby](https://github.com/user-attachments/assets/3c2dfbc1-7e93-41ef-b662-e6b3b5d4c868)
+ ![transieby](https://github.com/user-attachments/assets/3c2dfbc1-7e93-41ef-b662-e6b3b5d4c868)
 
  <br>
   We give a frequency 1kHz and give input as sine wave and 50mV peak amplitude and 0.9V DC offset was applied.The output peak voltage was measured as 1.751V of the sine wave.There is 180 degree phase shift between input and output or the DC level shift.
