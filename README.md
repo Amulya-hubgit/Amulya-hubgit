@@ -204,7 +204,7 @@ In this circuit we use 180nm of NMOSFET and instead of drain resistor we replace
 <br>
   4.AC analysis : In AC analysis select the sweep as decade and give frequency as 0.1KHz to 1THz.AC input is a small signal sine wave, and the gain is measured as the ratio of output peak voltage to input peak voltage and use the commant to run.(.ac dec 20 0.1 1T)
 <br>
-<Simulations Result and Calculations:</b>
+<b>Simulations Result and Calculations:</b>
 <br>
 <b> DC analysis:</b>
 <br>
@@ -233,13 +233,14 @@ I=power/Voltage
  <br>
  we have to get the output current, Id for the given circuits by adjusting the values of Length & Width of both the MOSFETS M1 & M2 
  <br>
- | Length   | width    | Id       |
-|----------|----------|----------|
-| 180nm    | 1um      | 0.000144083 |
-| 180nm    | 0.1um    | 1.27955e-05|
-|180nm     | 0.2um    | 3.75606e-05|
-|180nm     | 0.31um    |  5.3289e-05|
-| 180nm    | 0.321um   |  5.55256e-05|
+ | Length    | width    | Id         |
+ |---------- |----------|----------  |
+ | 180nm     | 1um      | 0.00014408 |
+ | 180nm     | 0.1um    | 1.27955e-05|
+ | 180nm     | 0.2um    | 3.75606e-05|
+ | 180nm     | 0.31um   |  5.3289e-05|
+ | 180nm     | 0.321um  | 5.55256e-05|
+<br>
  <b> Transient analysis:</b>
  ![image](https://github.com/user-attachments/assets/63b6a6d2-2a5b-4892-b57d-41836ddbcfea)
  <br>
