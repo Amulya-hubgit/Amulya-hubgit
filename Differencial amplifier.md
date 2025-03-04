@@ -99,6 +99,7 @@ AC Analysis:
 ![ac mos](https://github.com/user-attachments/assets/bf9f44c9-9dce-4da5-8e15-9b29deecafb3)
 <br>
 <b> Inference:<b>
+<br>
 1.In this Experiment we seen the working prinicipal of differencial amplifier and it's types and configurations
 <br>
 2.when resistor is connected to the differencial amplifier it gives the low CMRR because resistors do not reject common-mode signalss well,low gain due to limited impedence and provide high Bandwidth
