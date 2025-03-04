@@ -81,8 +81,10 @@ Now replace the R3 resister with a Mosfet
 
 ![mos](https://github.com/user-attachments/assets/7a377fd3-312b-433d-aad8-941352d3ef06)
 <br>
-Vb=Vth+Vp
+Vb=Vth+Vp<br>
+<br>
 Vb=0.36+0.4=0.76
+<br>
 DC Analysis:
 ![dc mos](https://github.com/user-attachments/assets/044a39ab-82b3-4f0c-865e-cdf9b8ec7531)
 <br>
@@ -95,6 +97,23 @@ AC Analysis:
 <br>
 
 ![ac mos](https://github.com/user-attachments/assets/bf9f44c9-9dce-4da5-8e15-9b29deecafb3)
+<br>
+<b> Inference:<b>
+1.In this Experiment we seen the working prinicipal of differencial amplifier and it's types and configurations
+<br>
+2.when resistor is connected to the differencial amplifier it gives the low CMRR because resistors do not reject common-mode signalss well,low gain due to limited impedence and provide high Bandwidth
+<br>
+3.Replacing the resistor with a current source as a load significantly improves performance. A current source has high output impedance,This results in high gain and better CMRR, as the current source helps reject common-mode signals.
+<br>
+4.Replacing the current source with nmosfet it provides very high impedance, leading to maximum gain and excellent CMRR. Active loads are commonly used in integrated circuits (ICs) and operational amplifiers (op-amps) due to their space and power efficiency.
+<br>
+| Load Type        |    Gain   | output impedence | CMRR    |Complexity|
+|------------------|-----------|------------------|---------|----------|
+|   Resistor       | low       |     low          |   low   |  simple  |
+|   Current souce  | high      |     high         |   high  |  moderate|
+|    mosfet        |very high  |    very high     |very high|  complex |
+
+
 
 
 
