@@ -8,7 +8,7 @@ In differential mode, if one input voltage increases while the other decreases, 
 Applications of Differential amplifiers are widely used in Operational amplifiers (op-amps),Analog-to-digital converters (ADCs),Sensor signal conditioning,Communication circuits (such as mixers and amplifiers) a due to its high common-mode rejection ratio (CMRR), high input impedance, and low distortion.
 <br>
 <br>
-<b> Deign question: design differencial amplifier for following specificationss VDD=2V,p<=1mV,vicm=1V,vocm=1.1V,vp=0.4V perform DC Analysis transient Analysis,frequency responce and exact required parameter<b>
+<b> Aim: design differencial amplifier for following specificationss VDD=2V,p<=1mV,vicm=1V,vocm=1.1V,vp=0.4V perform DC Analysis transient Analysis,frequency responce and exact required parameter<b>
 <br>
 <br>
 <b> Circuit Calculations:<b>
@@ -18,7 +18,18 @@ Applications of Differential amplifiers are widely used in Operational amplifier
 <br>
 <b>Circuit Diagram:<b>
 
+![circuit 2](https://github.com/user-attachments/assets/0ade39ad-1907-4b6b-b5bf-67ba6996d515)
+
+<br>
+## **Circuit 1**
+
+
 ![cicuit1](https://github.com/user-attachments/assets/199d3666-d2fa-41ac-880c-30f58605d874)
+<br>
+Now to get the desired values of output voltage and current we have to vary the width and length of both the mosfet we got Length=180nm and width=19.3um
+<br>
+<b> DC analysis
+
 
 
 
