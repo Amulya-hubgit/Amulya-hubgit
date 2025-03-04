@@ -18,7 +18,7 @@ Applications of Differential amplifiers are widely used in Operational amplifier
 <br>
 <b>Circuit Diagram:<b>
 
-![circuit diagram](https://github.com/user-attachments/assets/33001891-0167-4315-a208-6d2a3e73e693)
+![cicuit1](https://github.com/user-attachments/assets/199d3666-d2fa-41ac-880c-30f58605d874)
 
 
 
