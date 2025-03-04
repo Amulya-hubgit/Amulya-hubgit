@@ -9,7 +9,11 @@ Applications of Differential amplifiers are widely used in Operational amplifier
 <br>
 <br>
 <b> Deign question: design differencial amplifier for following specificationss VDD=2V,p<=1mV,vicm=1V,vocm=1.1V,vp=0.4V perform DC Analysis transient Analysis,frequency responce and exact required parameter<b>
+<br>
+<b> Circuit Calculations:<b>
 
+
+![circuit calu](https://github.com/user-attachments/assets/b1f54767-9178-4202-9511-af3b93569961)
 
 
 
