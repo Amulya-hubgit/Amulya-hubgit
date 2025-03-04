@@ -41,6 +41,16 @@ To perform transient analysis we have to select the transient analysis in the ed
 
 
 ![trans](https://github.com/user-attachments/assets/ab07487e-56bc-4184-98a1-79d8e44b319e)
+<br>
+voltage gain AV=voutp-p/vinp-p
+
+AV=(1.53-0.63)/(1.08-0.9)
+
+AV=5
+<br>
+<b> AC Analysis:<b>
+
+![AC](https://github.com/user-attachments/assets/202f029f-0d75-48d1-aa24-1314d6f48eb4)
 
 
 
