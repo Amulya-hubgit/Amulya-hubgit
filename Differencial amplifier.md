@@ -32,10 +32,15 @@ To set the operating point go to Configure Analysis and select Dc operating Poin
 
 
 ![dc](https://github.com/user-attachments/assets/5a9535dc-0bc8-403b-b05a-ac7a2e35e036)
+<br>
 Here in dc analysis we got the vout=1.100 as expected and we got the same id1=id2=2.49
 <br>
 <b> Transient analysis:<b>
+<br>
+To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 5ms and run the simulation . and the graph velow shows the transient response of the design.
 
+
+![trans](https://github.com/user-attachments/assets/ab07487e-56bc-4184-98a1-79d8e44b319e)
 
 
 
