@@ -50,7 +50,20 @@ AV=5
 <br>
 <b> AC Analysis:<b>
 
-![AC](https://github.com/user-attachments/assets/202f029f-0d75-48d1-aa24-1314d6f48eb4)
+
+
+![WhatsApp Image 2025-03-04 at 10 12 56 PM](https://github.com/user-attachments/assets/ff5faa5f-7991-4281-b593-6fb8bbdd6056)
+<br>
+<b> Circuit 2:<b>
+<br>
+Now replace the R3 resister with a current source : connect a current souce of 0.5mA
+<br>
+<b> DC Analysis:<b>
+<br>
+To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis
+
+
+![circuit32](https://github.com/user-attachments/assets/a2268095-2ed0-4ddb-94ce-df0921664902)
 
 
 
