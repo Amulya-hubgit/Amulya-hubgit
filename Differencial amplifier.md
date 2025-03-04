@@ -21,7 +21,7 @@ Applications of Differential amplifiers are widely used in Operational amplifier
 ![circuit 2](https://github.com/user-attachments/assets/0ade39ad-1907-4b6b-b5bf-67ba6996d515)
 
 <br>
-<b>Circuit 1</b>
+<b>Circuit 1:</b>
 
 
 ![cicuit1](https://github.com/user-attachments/assets/199d3666-d2fa-41ac-880c-30f58605d874)
@@ -32,6 +32,9 @@ To set the operating point go to Configure Analysis and select Dc operating Poin
 
 
 ![dc](https://github.com/user-attachments/assets/5a9535dc-0bc8-403b-b05a-ac7a2e35e036)
+Here in dc analysis we got the vout=1.100 as expected and we got the same id1=id2=2.49
+<br>
+<b> Transient analysis:<b>
 
 
 
