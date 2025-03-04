@@ -65,6 +65,39 @@ Now replace the R3 resister with a current source : connect a current souce of 0
 To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis
 
 ![WhatsApp Image 2025-03-04 at 10 27 05 PM (1)](https://github.com/user-attachments/assets/c392b01b-ed40-4954-8d36-3051b28bb197)
+<br>
+Transient Analysis:
+To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 3ms and run the simulation and we get the output waveform
+![WhatsApp Image 2025-03-04 at 10 38 49 PM](https://github.com/user-attachments/assets/9ae558c7-48e5-4471-9430-745b7d9fdf43)
+<br>
+AC Analysis:
+<br>
+
+![ac curre1](https://github.com/user-attachments/assets/372e900c-724a-43b7-8165-ad787d11a123)
+<br>
+<br>
+<b> circuit 3:<b>
+Now replace the R3 resister with a Mosfet 
+
+![mos](https://github.com/user-attachments/assets/7a377fd3-312b-433d-aad8-941352d3ef06)
+<br>
+Vb=Vth+Vp
+Vb=0.36+0.4=0.76
+DC Analysis:
+![dc mos](https://github.com/user-attachments/assets/044a39ab-82b3-4f0c-865e-cdf9b8ec7531)
+<br>
+Transient Analysis:
+<br>
+
+![trans mos](https://github.com/user-attachments/assets/3ac01651-9175-4e32-8368-f13f674d9cf8)
+<br>
+AC Analysis:
+<br>
+
+![ac mos](https://github.com/user-attachments/assets/bf9f44c9-9dce-4da5-8e15-9b29deecafb3)
+
+
+
 
 
 
