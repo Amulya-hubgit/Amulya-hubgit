@@ -8,7 +8,7 @@ In differential mode, if one input voltage increases while the other decreases, 
 Applications of Differential amplifiers are widely used in Operational amplifiers (op-amps),Analog-to-digital converters (ADCs),Sensor signal conditioning,Communication circuits (such as mixers and amplifiers) a due to its high common-mode rejection ratio (CMRR), high input impedance, and low distortion.
 <br>
 <br>
-<b> Aim: design differencial amplifier for following specificationss VDD=2V,p<=1mV,vicm=1V,vocm=1.1V,vp=0.4V perform DC Analysis transient Analysis,frequency responce and exact required parameter<b>
+<b> Aim: design differencial amplifier for following specificationss VDD=2V,p<=1mV,vicm=1V,vocm=1.1V,vp=0.4V perform DC Analysis transient  Analysis,frequency responce and exact required parameter<b>
 <br>
 <br>
 <b> Circuit Calculations:<b>
