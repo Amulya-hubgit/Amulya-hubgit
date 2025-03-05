@@ -47,14 +47,19 @@ In transient analysis we have to select the transient analysis in the edit simul
 ![trans](https://github.com/user-attachments/assets/ab07487e-56bc-4184-98a1-79d8e44b319e)
 <br>
 voltage gain AV=voutp-p/vinp-p
+<br>
 AV=(1.53-0.65)/(1.03-0.94)
+<br>
 AV=9.73
+<br>
 Swing Calculation
 <br>
 Vinmin=Vth+Vp
+<br>
 Vinmin=0.36+0.4=0.76V
 <br>
 Vinmax=Vdd-IdRd+Vth
+<br>
 Vinmax=2-(0.25m×3.6k)+0.36=1.46V
 <br>
 i/p max swing=(0.76+1.46)/2 = 1,11V
@@ -66,6 +71,14 @@ i/p max swing=(0.76+1.46)/2 = 1,11V
 
 
 ![WhatsApp Image 2025-03-04 at 10 12 56 PM](https://github.com/user-attachments/assets/ff5faa5f-7991-4281-b593-6fb8bbdd6056)
+<br>
+AV 9.73V/V
+<br>
+dB=20log(Av)
+<br>
+dB=20log(9.73)
+<br>
+dB=19.7
 <br>
 <b> Circuit 2:<b>
 <br>
@@ -93,7 +106,7 @@ Now replace the R3 resister with a Mosfet
 
 ![mos](https://github.com/user-attachments/assets/7a377fd3-312b-433d-aad8-941352d3ef06)
 <br>
-Vb=Vth+Vp<br>
+Vb=Vth+Vp
 <br>
 Vb=0.36+0.4=0.76
 <br>
