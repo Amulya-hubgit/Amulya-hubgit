@@ -30,7 +30,7 @@ Now to get the desired values of output voltage and current we have to vary the 
 <br>
 <b> DC analysis:<b>
 <br>
-To set the operating point go to Configure Analysis and select Dc operating Point in the simulation and set the Id value
+To set the operating point go to edit simulation and select Dc operating Point in the simulation and set the Id value
 
 
 ![dc](https://github.com/user-attachments/assets/5a9535dc-0bc8-403b-b05a-ac7a2e35e036)
@@ -47,10 +47,19 @@ In transient analysis we have to select the transient analysis in the edit simul
 ![trans](https://github.com/user-attachments/assets/ab07487e-56bc-4184-98a1-79d8e44b319e)
 <br>
 voltage gain AV=voutp-p/vinp-p
-
 AV=(1.53-0.65)/(1.03-0.94)
-
 AV=9.73
+Swing Calculation
+<br>
+Vinmin=Vth+Vp
+Vinmin=0.36+0.4=0.76V
+<br>
+Vinmax=Vdd-IdRd+Vth
+Vinmax=2-(0.25m×3.6k)+0.36=1.46V
+<br>
+i/p max swing=(0.76+1.46)/2 = 1,11V
+
+
 <br>
 <b> AC Analysis:<b>
 
