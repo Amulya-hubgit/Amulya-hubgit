@@ -63,7 +63,16 @@ Vinmax=Vdd-IdRd+Vth
 Vinmax=2-(0.25m×3.6k)+0.36=1.46V
 <br>
 i/p max swing=(0.76+1.46)/2 = 1,11V
-
+<br>
+Voutmin = Vov+Vp
+<br>
+Voutmin =(0.6-0.36)+0.4 =0.64
+<br>
+Voutmax=Vdd-IdRd
+<br>
+Voutmax=2-(0.25m×3.6k)=1.1
+<br>
+o/p max swing =(1.1+0.67)/2=0.87
 
 <br>
 <b> AC Analysis:<b>
@@ -87,11 +96,12 @@ Now replace the R3 resister with a current source : connect a current souce of 0
 ![circuit32](https://github.com/user-attachments/assets/a2268095-2ed0-4ddb-94ce-df0921664902)
 <b> DC Analysis:<b>
 <br>
-To perform the DC analysis we have to select the {DC op pnt} in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis
+In the DC analysis we have to select the DC operating point in the edit simulation command and run the simulation the figure below is the values obtained from the DC analysis
 
 ![WhatsApp Image 2025-03-04 at 10 27 05 PM (1)](https://github.com/user-attachments/assets/c392b01b-ed40-4954-8d36-3051b28bb197)
 <br>
 Transient Analysis:
+<br>
 To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 3ms and run the simulation and we get the output waveform
 ![WhatsApp Image 2025-03-04 at 10 38 49 PM](https://github.com/user-attachments/assets/9ae558c7-48e5-4471-9430-745b7d9fdf43)
 <br>
