@@ -29,25 +29,28 @@ Applications of Differential amplifiers are widely used in Operational amplifier
 Now to get the desired values of output voltage and current we have to vary the width and length of both the mosfet we got Length=180nm and width=19.3um
 <br>
 <b> DC analysis:<b>
-To set the operating point go to Configure Analysis and select Dc operating Point and set the Id value
+<br>
+To set the operating point go to Configure Analysis and select Dc operating Point in the simulation and set the Id value
 
 
 ![dc](https://github.com/user-attachments/assets/5a9535dc-0bc8-403b-b05a-ac7a2e35e036)
 <br>
 Here in dc analysis we got the vout=1.100 as expected and we got the same id1=id2=2.49
 <br>
+Q-point of the mosfet =(0.77,0.25m) at Vgs=0.6
+<br>
 <b> Transient analysis:<b>
 <br>
-To perform transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 5ms and run the simulation . and the graph velow shows the transient response of the design.
+In transient analysis we have to select the transient analysis in the edit simulation and give the stop time as 3ms and run the simulation . and the below gragh shows the transient response of the design.
 
 
 ![trans](https://github.com/user-attachments/assets/ab07487e-56bc-4184-98a1-79d8e44b319e)
 <br>
 voltage gain AV=voutp-p/vinp-p
 
-AV=(1.53-0.63)/(1.08-0.9)
+AV=(1.53-0.65)/(1.03-0.94)
 
-AV=5
+AV=9.73
 <br>
 <b> AC Analysis:<b>
 
