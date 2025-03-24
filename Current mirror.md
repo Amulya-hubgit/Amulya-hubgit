@@ -26,7 +26,8 @@ Perform the DC analysis, transient analysis, AC analysis and extract the paramet
 <br>
 <b> Cicuit diagram:</b>
 <br>
-![real curcuit](https://github.com/user-attachments/assets/33e516f2-8dc0-4462-9f28-3182366df4f7)
 
 
+
+![real curcuit](https://github.com/user-attachments/assets/03480a59-f8b9-4fac-8d45-11a2b550a670)
 
