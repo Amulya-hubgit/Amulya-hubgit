@@ -63,3 +63,32 @@ Considering the channel length modulation effect, if VDS of MOSFET M1 changes by
 
 
 ![channel](https://github.com/user-attachments/assets/7ec31dfc-a764-4e2d-b7a6-25680e11e5d8)
+<br>
+<b> Question a]:</b>
+<br>
+<b> Circuit diagram and calcualtion:</b>
+<br>
+<b> Case1=1:1 ratio</b>
+<br>
+![dc 1 ratio](https://github.com/user-attachments/assets/68f7c462-5065-40fc-82fc-72bbeca9e89c)
+<br>
+
+Itotal = ( Power / Vdd )
+= ( 1m / 1.8 )
+= 0.55mA
+
+Iref = Id = ( Itotal / 2 )
+= 0.55m / 2
+= 0.277mA
+<br>
+<b> DC Analysis:</b>
+<br>
+keeping (W/L) of MOSFET M1 and M2 (180n/10u) and varying width of M3 MOSFET to ensure that mosfet working in saturtion region
+<br>
+![dc](https://github.com/user-attachments/assets/0b40a5ac-f861-42be-870f-38847b57f315)
+<br>
+<b> Transient Analysis:</b>
+![image](https://github.com/user-attachments/assets/ae36e3fa-8e14-4fb8-83fb-1ee5a62a246f)
+
+
+
