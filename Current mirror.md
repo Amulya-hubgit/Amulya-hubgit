@@ -98,6 +98,14 @@ Av = 29.02dB.
 bandwidth frequency = 652.698MHz.
 <br>
 <b> For Length=150nm</b>
+<br>
+<b> DC Analysis:</b>
+
+
+![dc5](https://github.com/user-attachments/assets/f67b6bda-f9d3-4627-bb73-99f9d5cc4e47)
+<br>
+<b> Transient Analysis:</b>
+![image](https://github.com/user-attachments/assets/461ca2ca-c02c-4f10-9ee4-4c6b15846a44)
 
 
 
