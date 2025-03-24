@@ -93,6 +93,12 @@ keeping (W/L) of MOSFET M1 and M2 (180n/10u) and varying width of M3 MOSFET to e
 <br>
 <b> AC Analysis:</b>
 ![image](https://github.com/user-attachments/assets/cfa35259-53cc-4775-954a-606c8b07a0db)
+Av = 29.02dB.
+<br>
+bandwidth frequency = 652.698MHz.
+<br>
+<b> For Length=150nm</b>
+
 
 
 
