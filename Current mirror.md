@@ -115,6 +115,63 @@ bandwidth frequency = 652.698MHz.
 <b> DC Analysis:</b>
 
 
+![Capture](https://github.com/user-attachments/assets/3b01d044-2583-4b86-8b00-9f67c89b3197)
+<b> AC Analysis:</b>
+![image](https://github.com/user-attachments/assets/4eab987c-112a-46cb-870e-b6bfed04e35a)
+### Comparison Table
+
+| Length (L) | Width (W1) | Width (W2) | Width (W3) | Iref | Iout | Vout |
+|-----|----|----|----|----|----|-----|
+| 180nm | 10um | 10um | 32.4256um | 0.277mA | 0.277mA | 1.00553V |
+| 500nm | 10um | 10um | 67.646um | 0.277mA | 0.2777mA | 0.707924V |
+| 1um | 10um | 10um | 96.472um | 0.277mA | 0.277mA | 0.337052V |
+<br>
+<b>  for 1:2 ratio</b>
+<br>
+for Length=180nm
+<br>
+<b> Circiut diagram:</b>
+
+
+
+![dia2](https://github.com/user-attachments/assets/a3bba894-d151-473c-ab4c-ebd51e22f5b1)
+<br>
+<b> DC Analysis:</b>
+
+
+![dc 2](https://github.com/user-attachments/assets/ea77dab2-e943-40b2-9a62-dd1f9b6704ae)
+<br>
+<b> Transient Analysis:</b>
+![image](https://github.com/user-attachments/assets/0bc55641-2b62-4568-98f5-85d610400a56)
+<br>
+![image](https://github.com/user-attachments/assets/9ff808d6-5cb0-42c4-9f59-31cc0406e122)
+<br>
+<b> AC analysis:</b>
+![image](https://github.com/user-attachments/assets/71729ae8-bc6f-45e8-91cb-0310c07c6597)
+<br>
+<b> for Length=500nm </b>
+<br>
+<b> Dc Analysis:</b>
+
+![dc 500](https://github.com/user-attachments/assets/a8438a19-dd5b-4501-aece-2c5e514adf86)
+<br>
+<b> transient Analysis:</b>
+
+<br>
+<b> Ac Analysis:</b>
+
+![ac 500](https://github.com/user-attachments/assets/802adc33-cdf3-46b1-bfff-848a21c2ae28)
+<br>
+<b> for Length=1um</b>
+<br>
+<b> DC Analysis</b>
+
+![dc  1u](https://github.com/user-attachments/assets/fe0d603c-f3fa-4a09-a252-f8c7464635ae)
+
+
+
+
+
 
 
 
