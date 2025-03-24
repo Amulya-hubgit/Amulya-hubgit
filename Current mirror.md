@@ -167,9 +167,32 @@ for Length=180nm
 <b> DC Analysis</b>
 
 ![dc  1u](https://github.com/user-attachments/assets/fe0d603c-f3fa-4a09-a252-f8c7464635ae)
+<br>
+<b> Transient Analysis:</b>
+
+![tra 500](https://github.com/user-attachments/assets/e007a07c-aa9d-4d8f-996b-a9dba3c4b06a)
+
+<br>
+<b> Ac Analysis:</b>
+
+![ac 5001](https://github.com/user-attachments/assets/ba92ab78-2354-4ad6-8fcc-cbe18f845de1)
+<br>
+### Comparison Table
+
+| Length (L) | Width (W1) | Width (W2) | Width (W3) | Iref | Iout | Vout |
+|-----|----|----|----|----|----|-----|
+| 180nm | 10um | 20um | 42.833um | 0.185mA | 0.370666mA | 1.03657V |
+| 500nm | 10um | 20um | 89.342um | 0.185mA | 0.37066mA | 0.802448V |
+| 1um | 10um | 20um | 126.357um | 0.185mA | 0.3706mA | 0.493025V |
+<br>
+### Case 3: For 2:1 ratio
+<br>
+<b> Circuit diagram:</b>
 
 
 
+
+![ratio2](https://github.com/user-attachments/assets/a4b60b4f-d7a3-4c10-a1c7-4d5b5b481987)
 
 
 
