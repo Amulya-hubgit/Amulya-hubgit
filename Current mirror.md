@@ -193,6 +193,146 @@ for Length=180nm
 
 
 ![ratio2](https://github.com/user-attachments/assets/a4b60b4f-d7a3-4c10-a1c7-4d5b5b481987)
+<br>
+<b> DC Analysis:</b>
+
+
+![dc21](https://github.com/user-attachments/assets/e83f2840-cea4-43cc-9c52-dbf09e825774)
+<br>
+<b> Transient Analysis:</b>
+![trans21](https://github.com/user-attachments/assets/be423102-22c1-4155-a310-2e9313d4fa83)
+<br>
+<b> AC analysis:</b>
+![ac 21](https://github.com/user-attachments/assets/69b89a63-90b1-4d74-b628-92bb0d2e9c3b)
+<br>
+<b> for length= 500nm</b>
+<br>
+<b> DC Analysis:</b>
+<br>
+![dc 5n](https://github.com/user-attachments/assets/704619c8-43d5-4748-bd11-6e775b8c8d52)
+<br>
+<b> Transient Analysis:</b>
+<br>
+
+![tran5n](https://github.com/user-attachments/assets/efd5365b-7b47-4671-8f5e-3e9f233c50da)
+<br>
+<b> AC analysis:</b>
+<br>
+![ac5n](https://github.com/user-attachments/assets/4abe0782-b010-4a66-9285-0f2e8b59a62b)
+<br>
+<b> for length= 1u</b>
+<br>
+<b> DC Analysis:</b>
+
+![dc 11u](https://github.com/user-attachments/assets/2f91e659-e635-4202-93d1-1bdf79c91963)
+<br>
+<b> Transient Analysis:</b>
+<br>
+![trans 1u](https://github.com/user-attachments/assets/27a99f97-6941-454b-beb9-b5554d0a2c6b)
+<br>
+<b> AC analysis:</b>
+<br>
+![ac1 1u](https://github.com/user-attachments/assets/d95a4976-403b-44f6-8f87-f6d0e4b2f067)
+<br>
+### Comparison Table
+
+| Length (L) | Width (W1) | Width (W2) | Width (W3) | Iref | Iout | Vout |
+|-----|----|----|----|----|----|-----|
+| 180nm | 20um | 10um | 20.75um | 0.1854mA | 0.278mA | 1.0927V |
+| 500nm | 20um | 10um | 44.508um | 0.1854mA | 0.2776mA | 0.828632V |
+| 1um | 20um | 10um | 62.383um | 0.185mA | 0.278mA | 0.613212V |
+### Case 4:  1:3 ratio
+<b> Circuit diagram:</b>
+
+
+
+Id = $P/Vdd$ = $1m/1.8$ = 0.556mA
+ Itotal = Id + 3Iref = 4Iref
+   
+   Iref = $Id/4$ = $0.556m/4$ = 0.139mA
+   <br>
+<b> DC Analysis:</b>
+![image](https://github.com/user-attachments/assets/f67816ef-b39c-4290-88c9-0b53756d875c)
+
+<br>
+<b> Transient Analysis:</b>
+<br>
+![image](https://github.com/user-attachments/assets/01f2c478-96ce-4cdb-9aa2-c65fa9012538)
+<br>
+<b> AC analysis:</b>
+<br>
+![image](https://github.com/user-attachments/assets/82cdd49f-adf2-451a-b62e-0d05c00e02c1)
+<br>
+<b> for length= 500nm</b>
+<br>
+
+<b> DC Analysis:</b>
+<br>
+![dc 500nm](https://github.com/user-attachments/assets/307eb70a-b2f6-4fd1-8415-27b84f1723af)
+<br>
+
+
+<b> Transient Analysis:</b>
+<br>
+
+![trans 500n](https://github.com/user-attachments/assets/079351b9-b0ab-487d-b4e4-f005b84e2cc4)
+<br>
+
+<b> AC analysis:</b>
+<br>
+<br>![ac 500nm](https://github.com/user-attachments/assets/eb081492-e18c-401e-8948-d046a87b82be)
+<br>
+<b> for length= 1u</b>
+
+<br>
+
+<b> DC Analysis:</b>
+<br>
+
+
+![dc1111111u](https://github.com/user-attachments/assets/fabf92cd-4d8a-4b31-8e28-adff1d0cf79f)
+<br>
+
+
+<b> Transient Analysis:</b>
+<br>
+![trans111111u](https://github.com/user-attachments/assets/e09026b4-a701-49f6-abf3-d38aaa063a61)
+<br>
+
+<b> AC analysis:</b>
+<br>
+
+![ac11u](https://github.com/user-attachments/assets/23a5f81a-7168-41e1-9dbd-fca940020691)
+<br>
+### Comparison Table
+
+| Length (L) | Width (W1) | Width (W2) | Width (W3) | Iref | Iout | Vout |
+|-----|----|----|----|----|----|-----|
+| 180nm | 10um | 30um | 47.5885um | 0.139mA | 0.417mA | 1.07078V |
+| 500nm | 10um | 30um | 99.26um | 0.139mA | 0.417mA | 0.913457V |
+| 1um | 10um | 30um | 139.553um | 0.139mA | 0.4166mA | 0.694508V |
+
+### <ins> Circuit b] 
+### CIRCUIT DESIGN AND CALCULATIONS:
+### Case1 =1:1 ratio
+## circuit diagram
+![image](https://github.com/user-attachments/assets/15114ca8-bef2-4c26-8674-3a5ec83306e9)
+<br>
+<b> DC Analysis:</b>
+![image](https://github.com/user-attachments/assets/ecc182e4-2759-44b9-8fcc-62c27c651db2)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
