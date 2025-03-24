@@ -106,6 +106,15 @@ bandwidth frequency = 652.698MHz.
 <br>
 <b> Transient Analysis:</b>
 ![image](https://github.com/user-attachments/assets/461ca2ca-c02c-4f10-9ee4-4c6b15846a44)
+<br>
+<b> AC analysis:</b>
+![image](https://github.com/user-attachments/assets/c4e65c62-c153-41cd-88e3-9a82ddbef5e7)
+<br>
+<b> for Length =1um
+<br>
+<b> DC Analysis:</b>
+
+
 
 
 
