@@ -89,6 +89,8 @@ keeping (W/L) of MOSFET M1 and M2 (180n/10u) and varying width of M3 MOSFET to e
 <br>
 <b> Transient Analysis:</b>
 ![image](https://github.com/user-attachments/assets/ae36e3fa-8e14-4fb8-83fb-1ee5a62a246f)
+![image](https://github.com/user-attachments/assets/2b1ac83a-918c-44ff-b630-b7a28592969a)
+
 
 
 
