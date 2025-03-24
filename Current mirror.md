@@ -265,43 +265,30 @@ Id = $P/Vdd$ = $1m/1.8$ = 0.556mA
 <br>
 <b> for length= 500nm</b>
 <br>
-
 <b> DC Analysis:</b>
 <br>
 ![dc 500nm](https://github.com/user-attachments/assets/307eb70a-b2f6-4fd1-8415-27b84f1723af)
 <br>
-
-
 <b> Transient Analysis:</b>
 <br>
-
 ![trans 500n](https://github.com/user-attachments/assets/079351b9-b0ab-487d-b4e4-f005b84e2cc4)
 <br>
-
 <b> AC analysis:</b>
 <br>
 <br>![ac 500nm](https://github.com/user-attachments/assets/eb081492-e18c-401e-8948-d046a87b82be)
 <br>
 <b> for length= 1u</b>
-
 <br>
-
 <b> DC Analysis:</b>
 <br>
-
-
 ![dc1111111u](https://github.com/user-attachments/assets/fabf92cd-4d8a-4b31-8e28-adff1d0cf79f)
 <br>
-
-
 <b> Transient Analysis:</b>
 <br>
 ![trans111111u](https://github.com/user-attachments/assets/e09026b4-a701-49f6-abf3-d38aaa063a61)
 <br>
-
 <b> AC analysis:</b>
 <br>
-
 ![ac11u](https://github.com/user-attachments/assets/23a5f81a-7168-41e1-9dbd-fca940020691)
 <br>
 ### Comparison Table
